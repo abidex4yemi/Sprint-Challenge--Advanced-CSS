@@ -43,10 +43,6 @@
     flex-wrap: wrap;
     width: 100%;
 
-    @media @tablet {
-      .flex-box(column, center, center);
-    }
-
     img {
       max-width: 100%;
       width: 28%;
@@ -63,14 +59,10 @@
 
         width: 90%;
       }
-
-      @media @tablet {
-        width: 70%;
-      }
     }
 
     @media @tablet {
-      .flex-box(column, center, center);
+      .flex-box(row, center, center);
     }
   }
 
@@ -145,9 +137,6 @@
           width: 95%;
         }
 
-        @media @tablet {
-          width: 70%;
-        }
       }
     }
   }
