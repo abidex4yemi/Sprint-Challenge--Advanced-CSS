@@ -1,8 +1,11 @@
 // page header styles
 .page-header {
   font-size: 1.7rem;
-  padding: 3rem 0;
+  padding: 2rem 0;
   background: @nav-bg;
+  position: fixed;
+  z-index: 500;
+  width: 100%;
 
   @media @phone {
     padding: 1rem 0;
@@ -43,30 +46,13 @@
     padding: 0;
     margin-bottom: 0;
     list-style: none;
-    .flex-box(row, space-between, base);
+    .flex-box(row, space-around, base);
 
     @media @phone {
       width: 100%;
     }
 
     li {
-      a {
-        padding: @nav-link-padding;
-        text-decoration: none;
-        color: @nav-font;
-        font-size: 1.5rem;
-
-        @media @phone {
-          padding: 0;
-        }
-
-        &:hover,
-        &:focus {
-          text-decoration: none;
-          color: darken(@nav-font, 10%);
-        }
-      }
-
       margin-left: @nav-link-margin;
 
       @media @phone {
@@ -75,6 +61,25 @@
 
       &:first-child {
         margin-left: 0;
+      }
+
+      a {
+        padding: @nav-link-padding;
+        text-decoration: none;
+        color: @nav-font;
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-transform: capitalize;
+
+        @media @phone {
+          padding: 0;
+        }
+
+        &:hover,
+        &:focus {
+          text-decoration: none;
+          color: darken(@nav-font, 90%);
+        }
       }
     }
   }
