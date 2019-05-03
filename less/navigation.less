@@ -1,1 +1,81 @@
-// Navigation code here
+// page header styles
+.page-header {
+  font-size: 1.7rem;
+  padding: 3rem 0;
+  background: @nav-bg;
+
+  @media @phone {
+    padding: 1rem 0;
+  }
+
+  @media @tablet {
+    padding: 1rem 2rem;
+  }
+
+  .page-header-content {
+    .flex-box(column, center, center);
+
+    >a {
+      text-decoration: none;
+      color: @header-font-color;
+      margin-bottom: @nav-link-margin;
+
+      @media @phone {
+        margin-bottom: 1rem;
+      }
+
+      &:hover,
+      &:focus {
+        color: darken(@header-font-color, 10%);
+      }
+    }
+  }
+
+}
+
+// Navigation Styles here
+.main-nav {
+  @media @phone {
+    width: 100%;
+  }
+
+  ul {
+    padding: 0;
+    margin-bottom: 0;
+    list-style: none;
+    .flex-box(row, space-between, base);
+
+    @media @phone {
+      width: 100%;
+    }
+
+    li {
+      a {
+        padding: @nav-link-padding;
+        text-decoration: none;
+        color: @nav-font;
+        font-size: 1.5rem;
+
+        @media @phone {
+          padding: 0;
+        }
+
+        &:hover,
+        &:focus {
+          text-decoration: none;
+          color: darken(@nav-font, 10%);
+        }
+      }
+
+      margin-left: @nav-link-margin;
+
+      @media @phone {
+        margin-left: .5em;
+      }
+
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+  }
+}
