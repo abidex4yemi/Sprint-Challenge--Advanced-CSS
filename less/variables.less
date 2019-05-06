@@ -21,6 +21,40 @@
 @porcelain: #F6F7F8;
 @waterloo: #81848E;
 @btn-bg-color: #22283A;
+@btn-color: #fff;
 @border-real: #dee2e6;
 
-// Mobile var
+// button 
+@btn-padding: .5em;
+@btn-font-size: 2rem;
+@btn-line-height: 1.5;
+@btn-border-radius: 6px;
+
+// navigation
+@nav-link-padding: 1rem;
+@nav-link-margin: 2rem;
+
+/*
+ * Media queries breakpoints
+ */
+
+// Extra small screen or phone
+@small-screen: 500px;
+
+// Small screen or tablet
+@medium-screen: 768px;
+
+// Medium screen or desktop
+@desktop-small: 992px;
+
+// Large screen or wide desktop
+@desktop-large: 1200px;
+
+// media query maximum
+@small-screen-max-max: (@small-screen - 1);
+@medium-screen-max: (@medium-screen - 1);
+@desktop-small-max: (@desktop-small - 1);
+
+// devices
+@phone: ~"(max-width: 500px)";
+@tablet: ~"(max-width: 800px)";
