@@ -33,20 +33,26 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
-  *Responsive Web Design provides the optimal viewing experience of a website, no matter what type of device the user is seeing it on where by Adaptive web design is different from responsive design in that there isn’t one layout that always changes. Instead, there are several distinct layouts for multiple screen sizes.*
+
+  * *Responsive Web Design provides the optimal viewing experience of a website, no matter what type of device the user is seeing it on where by Adaptive web design is different from responsive design in that there isn’t one layout that always changes. Instead, there are several distinct layouts for multiple screen sizes.*
 
 2. Describe what it means to be mobile first vs desktop first.
-  *Mobile first is an approach to web design where the display of the website on mobile devices is prioritized over desktop where as desktop first is an approach to web design where the display of the website on desktop devices is prioritized over mobile. And also designing based on mobile first approach is easy to scale compare to desktop first approach.*
+
+  * *Mobile first is an approach to web design where the display of the website on mobile devices is prioritized over desktop where as desktop first is an approach to web design where the display of the website on desktop devices is prioritized over mobile. And also designing based on mobile first approach is easy to scale compare to desktop first approach.*
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
-  *This means setting a base font size for all the page elements and and using `rems` to increase or decrease font style of a specific page element based on the base style font-size.And `font-size: 62.5%` is equivalent to `10px` which makes calculating property values easier.*
-4.  How would you describe preprocessing to someone new to CSS?
-    *A CSS preprocessor is a program that lets us generate CSS from the preprocessor's own unique syntax. These features make the CSS structure more readable and easier to maintain.*
+  * *This means setting a base font size for all the page elements and and using `rems` to increase or decrease font style of a specific page element based on the base style font-size.And `font-size: 62.5%` is equivalent to `10px` which makes calculating property values easier.*
+
+4. How would you describe preprocessing to someone new to CSS?
+   
+  * *A CSS preprocessor is a program that lets us generate CSS from the preprocessor's own unique syntax. These features make the CSS structure more readable and easier to maintain.*
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
-  **using `parametric` mixing which allows for a reusable component.**
-  **Writing efficient and re usable less can be daunting and also knowing the standard to use when writing less.**
+
+  * *using `parametric` mixing which allows for a reusable component.*
+
+  * *Writing efficient and re usable less can be daunting and also knowing the standard to use when writingless.*
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
